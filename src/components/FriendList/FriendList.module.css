@@ -1,0 +1,20 @@
+.friend-list {
+  padding: 20px;
+  margin: 0 auto 20px;
+  width: 428px;
+  background-color: wheat;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  background-color: seashell;
+  padding: 10px;
+
+  list-style-type: none;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.5), 0px 2px 2px rgba(0, 0, 0, 0.14),
+    1px 2px 5px rgba(0, 0, 0, 0.12);
+}
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
