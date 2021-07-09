@@ -1,5 +1,5 @@
 import React from "react";
-import Stats from "../Stats/Stats";
+import Stats from "./Stats";
 import PropTypes from "prop-types";
 
 import styles from "./Profile.module.css";
